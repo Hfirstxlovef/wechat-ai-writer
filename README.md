@@ -126,6 +126,8 @@ start.sh / stop.sh   # one-command run/stop (macOS + Homebrew Postgres)
 - **PostgreSQL 16** with the **`pgvector`** extension installed
 - A **ZenMux API key** (`sk-ai-v1-...`) from [zenmux.ai](https://zenmux.ai)
 
+> 🎓 **Student perk** — if you're a student, [ZenMux's Campus Ambassador program](https://zenmux.ai/invite/3RBK2L) is worth a look: the free credits are enough to run this whole system end-to-end and validate your ideas without spending a cent. 👉 Search "ZenMux" or visit the site to apply for the Campus Ambassador program.
+
 > `start.sh` assumes a Homebrew-managed `postgresql@16` on macOS. On other setups, start Postgres yourself and use the npm scripts below.
 
 ## Setup
@@ -217,3 +219,35 @@ Because personal subscription accounts lack Material/Draft API access, this last
 - **Image generation** goes through ZenMux's Vertex-AI-compatible endpoint with retry/backoff for transient network errors.
 - **Model listing** — ZenMux's OpenAI-compatible `/models` endpoint only returns text models, so the app merges in a hand-maintained whitelist of image/embedding models (see `zenmux-feedback.md` for the full write-up).
 - **Uploads** (`public/uploads/`) and runtime files (`.run/`) are git-ignored; they stay on your machine.
+
+## 📣 Spread the word
+
+Found this useful? A post on X (Twitter) helps a lot — ready-to-paste copy:
+
+**English**
+
+```
+🚀 WeChat AI Writer (红岸 AI) — an open-source, self-hosted AI studio that turns a one-line idea into a copy-paste-ready WeChat Official Account post.
+
+🧠 Multi-model via ZenMux (Claude / GPT / Gemini / DALL·E)
+🎨 Inline-styled HTML that survives the paste into the WeChat editor
+📚 Style library (RAG) learns your voice
+🎓 Student? ZenMux's Campus Ambassador free credits cover the whole thing.
+
+⭐ github.com/Hfirstxlovef/wechat-ai-writer
+👉 https://zenmux.ai/invite/3RBK2L
+```
+
+**中文**
+
+```
+🚀 红岸 AI · 微信公众号推文写作系统 —— 开源、自托管的 AI 写作工作室，把一句话灵感变成可直接粘贴到公众号后台的成品推文。
+
+🧠 多模型聚合走 ZenMux（Claude / GPT / Gemini / DALL·E）
+🎨 全 inline 样式 HTML，粘到公众号后台样式不丢
+📚 风格库（RAG）学习你的文风
+🎓 学生党：ZenMux 校园大使计划的免费额度，足够把整套系统跑通，验证想法不花钱。
+
+⭐ github.com/Hfirstxlovef/wechat-ai-writer
+👉 https://zenmux.ai/invite/3RBK2L
+```

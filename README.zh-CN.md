@@ -40,6 +40,8 @@
 - PostgreSQL ≥ 14（本机或远程）
 - [ZenMux](https://zenmux.ai) 账号 + API Key
 
+> 🎓 **学生福利**：如果你是学生，[ZenMux 校园大使计划](https://zenmux.ai/invite/3RBK2L) 值得去看一眼——免费额度足够你把整套系统跑通，验证想法不用花钱。👉 搜索「ZenMux」或访问官网，申请校园大使计划。
+
 ### 2. 安装
 
 ```bash
@@ -103,6 +105,38 @@ prisma/
   schema.prisma       # Article / Category / Image / StyleProfile 等模型
 ```
 <img width="2560" height="1686" alt="image" src="https://github.com/user-attachments/assets/20d676c1-0aec-4ad1-a4e1-502a2690cd7a" />
+
+## 📣 分享
+
+觉得有用？欢迎转发到 X（推特）。可直接复制的文案：
+
+**English**
+
+```
+🚀 WeChat AI Writer (红岸 AI) — an open-source, self-hosted AI studio that turns a one-line idea into a copy-paste-ready WeChat Official Account post.
+
+🧠 Multi-model via ZenMux (Claude / GPT / Gemini / DALL·E)
+🎨 Inline-styled HTML that survives the paste into the WeChat editor
+📚 Style library (RAG) learns your voice
+🎓 Student? ZenMux's Campus Ambassador free credits cover the whole thing.
+
+⭐ github.com/Hfirstxlovef/wechat-ai-writer
+👉 https://zenmux.ai/invite/3RBK2L
+```
+
+**中文**
+
+```
+🚀 红岸 AI · 微信公众号推文写作系统 —— 开源、自托管的 AI 写作工作室，把一句话灵感变成可直接粘贴到公众号后台的成品推文。
+
+🧠 多模型聚合走 ZenMux（Claude / GPT / Gemini / DALL·E）
+🎨 全 inline 样式 HTML，粘到公众号后台样式不丢
+📚 风格库（RAG）学习你的文风
+🎓 学生党：ZenMux 校园大使计划的免费额度，足够把整套系统跑通，验证想法不花钱。
+
+⭐ github.com/Hfirstxlovef/wechat-ai-writer
+👉 https://zenmux.ai/invite/3RBK2L
+```
 
 ## License
 
